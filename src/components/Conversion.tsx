@@ -21,7 +21,7 @@ const containerVariants = {
 
 const itemVariants = {
   hidden: { opacity: 0, x: 30, filter: 'blur(6px)' },
-  visible: { opacity: 1, x: 0, filter: 'blur(0px)', transition: { duration: 0.55, ease: "easeOut" } },
+  visible: { opacity: 1, x: 0, filter: 'blur(0px)', transition: { duration: 0.55, ease: "easeOut" as const } },
 };
 
 const Conversion = () => {
