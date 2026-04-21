@@ -123,7 +123,7 @@ const Footer = () => {
                 className="text-orange-500/40"
                 whileHover={{ color: 'rgba(234,88,12,0.8)' }}
               >
-                skiimmmers
+                skimmers
               </motion.span>{' '}❤️
             </p>
           </motion.div>
